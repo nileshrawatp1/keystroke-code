@@ -1,0 +1,41 @@
+body {
+    background-color: #212121;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: #25042d;
+    color: #d1aeae;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.message:hover {
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.hidden {
+    display: none;
+}
+
+.key-code {
+    font-size: 13em;
+    color: #8f8585;
+    font-family: 'Courier New', Courier;
+    font-weight: 600;margin: 0; /* Remove any default margin */
+    padding: 0
+}
